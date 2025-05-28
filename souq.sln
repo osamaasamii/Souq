@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "souq", "souq\souq.csproj", "{3B75F179-5161-48FA-A6DE-E58A28E7E0B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminArea.Web", "AdminArea\AdminArea.Web\AdminArea.Web.csproj", "{ED19D506-CC1B-4D81-857A-E7925059B02E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B75F179-5161-48FA-A6DE-E58A28E7E0B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B75F179-5161-48FA-A6DE-E58A28E7E0B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B75F179-5161-48FA-A6DE-E58A28E7E0B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B75F179-5161-48FA-A6DE-E58A28E7E0B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED19D506-CC1B-4D81-857A-E7925059B02E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED19D506-CC1B-4D81-857A-E7925059B02E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED19D506-CC1B-4D81-857A-E7925059B02E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED19D506-CC1B-4D81-857A-E7925059B02E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DBBCD9A-7997-42E1-804E-B9F40948CCF7}
+	EndGlobalSection
+EndGlobal

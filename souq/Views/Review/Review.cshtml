@@ -1,0 +1,116 @@
+﻿@model souq.Models.ViewModelReview
+
+<section id="DmReviews" class="testimonials section light-background">
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Dm Reviews</h2>
+    </div>
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+        @if (Model.Reviews != null && Model.Reviews.Any())
+        {
+            <div class="swiper init-swiper" data-speed="600" data-delay="5000">
+                <script type="application/json" class="swiper-config">
+                    {
+                        "loop": true,
+                        "speed": 600,
+                        "autoplay": {
+                            "delay": 5000
+                        },
+                        "slidesPerView": "auto",
+                        "pagination": {
+                            "el": ".swiper-pagination",
+                            "type": "bullets",
+                            "clickable": true
+                        },
+                        "breakpoints": {
+                            "320": {
+                                "slidesPerView": 1,
+                                "spaceBetween": 40
+                            },
+                            "1200": {
+                                "slidesPerView": 3,
+                                "spaceBetween": 20
+                            }
+                        }
+                    }
+                </script>
+
+                <div class="swiper-wrapper">
+                    @foreach (var item in Model.Reviews)
+                    {
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <p>
+                                    <i class="bi bi-quote quote-icon-left"></i>
+                                    <span>@item.Message</span>
+                                    <i class="bi bi-quote quote-icon-right"></i>
+                                </p>
+                                <img src="/assets/img/Product/Anonymous.jpg" class="testimonial-img" alt="Anonymous User" />
+                                <h3>@item.Name</h3>
+                            </div>
+                        </div>
+                    }
+                </div>
+
+            </div>
+        }
+        else
+        {
+            <p class="text-muted">No reviews found.</p>
+        }
+    </div>
+</section>
+
+<section id="ReviewForm" class="Review section">
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Leave a Review</h2>
+    </div>
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <form asp-action="Review" method="post" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="row gy-4">
+                <div class="col-md-6">
+                    <input asp-for="NewReview.Name" class="form-control" placeholder="Your Name" required />
+                    <span asp-validation-for="NewReview.Name" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <input asp-for="NewReview.Email" type="email" class="form-control" placeholder="Your Email" required />
+                    <span asp-validation-for="NewReview.Email" class="text-danger"></span>
+                </div>
+
+                <div class="col-12">
+                    <input asp-for="NewReview.Subject" class="form-control" placeholder="Subject" required />
+                    <span asp-validation-for="NewReview.Subject" class="text-danger"></span>
+                </div>
+
+                <div class="col-12">
+                    <textarea asp-for="NewReview.Message" class="form-control" rows="6" placeholder="Message" required></textarea>
+                    <span asp-validation-for="NewReview.Message" class="text-danger"></span>
+                </div>
+
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+            </div>
+        </form>
+
+        @if (ViewBag.SuccessMessage != null)
+        {
+            <div class="alert alert-success mt-3">
+                @ViewBag.SuccessMessage
+            </div>
+        }
+
+        @if (ViewBag.ErrorMessage != null)
+        {
+            <div class="alert alert-danger mt-3">
+                @ViewBag.ErrorMessage
+            </div>
+        }
+
+    </div>
+</section>
+
+

@@ -1,0 +1,144 @@
+﻿@model  souq.Models.HomeVModel
+<!-- Category Section -->
+<section id="services" class="services section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Category</h2>
+      
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+        <div class="row gy-4">
+            @foreach (var item in Model.Categories)
+            {
+                <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-item d-flex">
+                        <div class="icon flex-shrink-0"><i class="bi @item.Image"></i></div>
+                        <div>
+                                <h4 class="title"><a href="/product/allproduct/@item.Id" class="stretched-link">@item.Name</a></h4>
+                            <p class="description">@item.Description</p>
+                        </div>
+                    </div>
+                </div>
+            }
+            <!-- End Service Item -->
+
+
+
+        </div>
+
+    </div>
+
+</section><!-- /Category Section -->
+
+
+<!-- ---------------------------------------------->
+<!-- LatestProducts Section -->
+<section id="pricing" class="pricing section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Latest Products</h2>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+        <div class="row gy-4">
+
+            @foreach(var item in Model.LatestProduct)
+            {
+                <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="pricing-item featured">
+                        <h3>@item.Name</h3>
+
+                        <div class="product-img text-center mb-3">
+                            <img src="/assets/img/Product/@item.Image" alt="@item.Name" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
+                        </div>
+
+                        <ul>
+                            <li><i class="bi-currency-dollar"></i> <span>@item.Price</span></li>
+                            <li><i class="bi bi-calendar-event"></i> <span>@item.Date</span></li>
+                       
+                        </ul>
+                        <a href="#" class="buy-btn">Add To Cart</a>
+                        <a href="/Product/Currentproduct/@item.Id" class="dtails-btn">Details</a>
+                    </div>
+                </div>
+
+                <!-- End Pricing Item -->
+            }
+
+
+        </div>
+
+    </div>
+
+</section><!-- /LatestProducts Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ---------------------------------------------->
+<!-- Image of Products Section -->
+<section id="portfolio" class="portfolio section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Product</h2>
+       
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+            <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                <li data-filter="*" class="filter-active">All</li>
+
+                @foreach (var item in Model.Categories)
+                {
+                    <li data-filter="._@item.Id">@item.Name</li>
+
+                }
+
+            </ul><!-- End Portfolio Filters -->
+
+            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                @foreach (var item in Model.Products)
+                {
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item _@item.Category.Id">
+                        <div class="portfolio-content h-100">
+
+                            <img src="/assets/img/Product/@item.Image" class="services-img" alt="" style="max-width: 100%; height: 200px; object-fit: cover; ">
+
+                            <div class="portfolio-info">
+                                <h4><a href="/Product/currentproduct/@item.Id" title="More Details">@item.Name</a></h4>
+                                <p>@item.Price</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+
+
+            </div><!-- End Portfolio Container -->
+
+        </div>
+
+    </div>
+
+</section><!-- / Image of Products Section -->

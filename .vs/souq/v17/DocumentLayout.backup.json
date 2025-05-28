@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\source\\repos\\souq\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B75F179-5161-48FA-A6DE-E58A28E7E0B8}|souq\\souq.csproj|c:\\users\\dell\\source\\repos\\souq\\souq\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B75F179-5161-48FA-A6DE-E58A28E7E0B8}|souq\\souq.csproj|solutionrelative:souq\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B75F179-5161-48FA-A6DE-E58A28E7E0B8}|souq\\souq.csproj|c:\\users\\dell\\source\\repos\\souq\\souq\\views\\review\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B75F179-5161-48FA-A6DE-E58A28E7E0B8}|souq\\souq.csproj|solutionrelative:souq\\views\\review\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B75F179-5161-48FA-A6DE-E58A28E7E0B8}|souq\\souq.csproj|c:\\users\\dell\\source\\repos\\souq\\souq\\models\\viewmodelreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B75F179-5161-48FA-A6DE-E58A28E7E0B8}|souq\\souq.csproj|solutionrelative:souq\\models\\viewmodelreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED19D506-CC1B-4D81-857A-E7925059B02E}|AdminArea\\AdminArea.Web\\AdminArea.Web.csproj|c:\\users\\dell\\source\\repos\\souq\\adminarea\\adminarea.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ED19D506-CC1B-4D81-857A-E7925059B02E}|AdminArea\\AdminArea.Web\\AdminArea.Web.csproj|solutionrelative:adminarea\\adminarea.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED19D506-CC1B-4D81-857A-E7925059B02E}|AdminArea\\AdminArea.Web\\AdminArea.Web.csproj|c:\\users\\dell\\source\\repos\\souq\\adminarea\\adminarea.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ED19D506-CC1B-4D81-857A-E7925059B02E}|AdminArea\\AdminArea.Web\\AdminArea.Web.csproj|solutionrelative:adminarea\\adminarea.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B75F179-5161-48FA-A6DE-E58A28E7E0B8}|souq\\souq.csproj|c:\\users\\dell\\source\\repos\\souq\\souq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B75F179-5161-48FA-A6DE-E58A28E7E0B8}|souq\\souq.csproj|solutionrelative:souq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED19D506-CC1B-4D81-857A-E7925059B02E}|AdminArea\\AdminArea.Web\\AdminArea.Web.csproj|c:\\users\\dell\\source\\repos\\souq\\adminarea\\adminarea.web\\initialization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED19D506-CC1B-4D81-857A-E7925059B02E}|AdminArea\\AdminArea.Web\\AdminArea.Web.csproj|solutionrelative:adminarea\\adminarea.web\\initialization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewModelReview.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\souq\\souq\\Models\\ViewModelReview.cs",
+              "RelativeDocumentMoniker": "souq\\Models\\ViewModelReview.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\souq\\souq\\Models\\ViewModelReview.cs",
+              "RelativeToolTip": "souq\\Models\\ViewModelReview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:58:10.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Review.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\souq\\souq\\Views\\Review\\Review.cshtml",
+              "RelativeDocumentMoniker": "souq\\Views\\Review\\Review.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\souq\\souq\\Views\\Review\\Review.cshtml",
+              "RelativeToolTip": "souq\\Views\\Review\\Review.cshtml",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAYwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T13:52:34.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\souq\\AdminArea\\AdminArea.Web\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AdminArea\\AdminArea.Web\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\souq\\AdminArea\\AdminArea.Web\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AdminArea\\AdminArea.Web\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-28T13:19:46.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\souq\\AdminArea\\AdminArea.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "AdminArea\\AdminArea.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\souq\\AdminArea\\AdminArea.Web\\appsettings.json",
+              "RelativeToolTip": "AdminArea\\AdminArea.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-28T13:19:28.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\souq\\souq\\Program.cs",
+              "RelativeDocumentMoniker": "souq\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\souq\\souq\\Program.cs",
+              "RelativeToolTip": "souq\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:17:30.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\souq\\AdminArea\\AdminArea.Web\\Initialization\\Program.cs",
+              "RelativeDocumentMoniker": "AdminArea\\AdminArea.Web\\Initialization\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\souq\\AdminArea\\AdminArea.Web\\Initialization\\Program.cs",
+              "RelativeToolTip": "AdminArea\\AdminArea.Web\\Initialization\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T12:28:54.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\souq\\souq\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "souq\\Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\souq\\souq\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "souq\\Controllers\\ReviewController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAcwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T12:28:53.472Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
